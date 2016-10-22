@@ -1,8 +1,8 @@
 # My configuration snippets
 
-* [BASH]
+* [BASH](#bash)
     * [Customise your prompt](#customise-your-prompt)
-* [GIT]
+* [GIT](#git)
     * [Add custom aliases (for displaying logs)](#add-custom-aliases-for-displaying-logs)
     * [Enable autocompletion](#enable-autocompletion)
 
@@ -39,7 +39,7 @@ In your ~/.gitconfig file:
 
 ### Enable autocompletion
 
-In your ~/.bash_profile
+In your bash configuration file (~/.bash_profile in my case):
 
 ```bash
 # You need to download download the file from:
