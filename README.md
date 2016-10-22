@@ -1,8 +1,26 @@
 # My configuration snippets
 
-{{TOC}}
+* [BASH]
+    * [Customise your prompt](#customise-your-prompt)
+* [GIT]
+    * [Add custom aliases (for displaying logs)](#add-custom-aliases-for-displaying-logs)
+    * [Enable autocompletion](#enable-autocompletion)
 
 Remember to `$ source ~/.bash_profile` after adding new lines!
+
+## BASH
+
+### Customise your prompt
+
+In your bash configuration file (~/.bash_profile in my case):
+
+```bash
+# You need to download download the file from:
+# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+ 
+source ~/.git-prompt.sh
+PS1='\u, \W $(__git_ps1 "\e[30;42m(%s)\e[m ")\e[0;35m$\e[m '
+```
 
 ## GIT
 
@@ -24,20 +42,8 @@ In your ~/.gitconfig file:
 In your ~/.bash_profile
 
 ```bash
-# You need to download download the file from: https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+# You need to download download the file from:
+# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+
 source ~/.git-completion.bash
-```
-
-## BASH
-
-### Customise your prompt
-
-In your ~/.bash_profile:
-
-```bash
-# Prompt customization
-# You need to download download the file from: https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
- 
-source ~/.git-prompt.sh
-PS1='\u, \W $(__git_ps1 "\e[30;42m(%s)\e[m ")\e[0;35m$\e[m '
 ```
