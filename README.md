@@ -10,7 +10,7 @@
 ## Usage
 
 1. Copy and paste the snippet of your choice into the configuration file
-2. If you are updating your bash configuration file, remember to `$ source ~/.bash_profile` for the chagnes to take effect.
+2. If you are updating your bash configuration file, remember to `$ source ~/.bash_profile` for the changes to take effect
 
 ## BASH
 
