@@ -1,12 +1,16 @@
 # My configuration snippets
 
+* [Usage](#usage)
 * [BASH](#bash)
     * [Customise your prompt](#customise-your-prompt)
 * [GIT](#git)
     * [Add custom aliases (for displaying logs)](#add-custom-aliases-for-displaying-logs)
     * [Enable autocompletion](#enable-autocompletion)
 
-Remember to `$ source ~/.bash_profile` after adding new lines!
+## Usage
+
+1. Copy and paste snippet you want into the configuration file
+2. If you update youe bash configuration, remember to `$ source ~/.bash_profile` for the chagnes to take effect.
 
 ## BASH
 
