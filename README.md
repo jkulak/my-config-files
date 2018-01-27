@@ -48,7 +48,8 @@ In your bash configuration file (~/.bash_profile in my case):
 
 ```bash
 # You need to download download the file from:
-# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+# https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+# `curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash`
 
-source ~/.git-completion.bash
+source ~/git-completion.bash
 ```
